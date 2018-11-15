@@ -9,7 +9,7 @@ class BurgerPane extends Component {
     render() {
         var ingredients = this.props.ingredients.map((ingredient, idx) => <BurgerStack ingredient={ingredient} />)
         return(
-            <div>{ingredients}</div>
+            <div className="burgerstack">{ingredients}</div>
         )
     }
 }

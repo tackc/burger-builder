@@ -11,14 +11,15 @@ class App extends Component {
         {name: 'Kaiser Bun', color: 'saddlebrown'},
         {name: 'Sesame Bun', color: 'sandybrown'},
         {name: 'Gluten Free Bun', color: 'peru'},
-        {name: 'Beef Patty', color: '#3F250B'},
+        {name: 'Beyond Meat Patty', color: '#3F250B'},
         {name: 'Soy Patty', color: '#3F250B'},
         {name: 'Black Bean Patty', color: '#3F250B'},
-        {name: 'Chicken Patty', color: 'burlywood'},
+        {name: 'Chiggin Patty', color: 'burlywood'},
         {name: 'Lettuce', color: 'lawngreen'},
         {name: 'Tomato', color: 'tomato'},
-        {name: 'Bacon', color: 'maroon'},
-        {name: 'Onion', color: 'lightyellow'}
+        {name: 'Benevolent Bacon', color: 'maroon'},
+        {name: 'Onion', color: 'lightyellow'},
+        {name: 'Chao Cheese', color: 'yellow'}
     ],
       stack: []
     }
@@ -41,8 +42,8 @@ class App extends Component {
           />
         </div>
         <div className="burgerpane">
-          <h1>Here's your custom burger...</h1>
-          <BurgerPane
+          <h1>Here's your burger...</h1>
+          <BurgerPane className="burgerstack"
             ingredients={this.state.stack}/>
         </div>
       </div>

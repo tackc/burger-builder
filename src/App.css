@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .App-header {
@@ -12,4 +17,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+.ingredientlist {
+  min-width: 40%;
+}
+
+.burgerpane {
+  min-width: 40%;
+}
+
+.burgerstack {
+  display: flex;
+  flex-direction: column-reverse;
 }

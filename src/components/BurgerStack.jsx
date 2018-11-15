@@ -7,7 +7,7 @@ class BurgerStack extends Component {
     }
     render() {
         return(
-            <div>
+            <div className="burgerstack">
                 {this.props.ingredient.name}
             </div>
         )
