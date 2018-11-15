@@ -1,18 +1,16 @@
 import React, {Component} from 'react';
-// import Ingredient from './Ingredient'
+import Ingredient from './Ingredient'
 
-class Burger extends Component {
+class BurgerStack extends Component {
     constructor(props) {
         super(props)
     }
-
     render() {
         return(
             <div>
-                {this.props.stack.ingredient.name}
+                {this.props.ingredient.name}
             </div>
         )
     }
 }
-
-export default Burger;
+export default BurgerStack;

@@ -42,7 +42,8 @@ class App extends Component {
         </div>
         <div className="burgerpane">
           <h1>Here's your custom burger...</h1>
-          <BurgerPane/>
+          <BurgerPane
+            ingredients={this.state.stack}/>
         </div>
       </div>
     );

@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import Burger from './Burger';
+import BurgerStack from './BurgerStack';
+
 
 class BurgerPane extends Component {
     constructor(props) {
         super(props)
     }
     render() {
-        var burgerstack = this.props.stack.map((stack, idx) => <Burger stack={stack}/>)
+        var ingredients = this.props.ingredients.map((ingredient, idx) => <BurgerStack ingredient={ingredient} />)
         return(
-            <div>{this.props.stack.ingredient}</div>
+            <div>{ingredients}</div>
         )
     }
 }
