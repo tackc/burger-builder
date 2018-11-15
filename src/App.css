@@ -19,16 +19,24 @@
   color: white;
 }
 
+span {
+padding-left: 1em;
+}
 
 .ingredientlist {
-  min-width: 40%;
+  min-width: 30%;
 }
 
 .burgerpane {
-  min-width: 40%;
+  min-width: 30%;
 }
 
 .burgerstack {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.addpadding {
+  padding: .3em;
+  text-align: justify;
 }

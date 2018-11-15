@@ -7,7 +7,7 @@ class BurgerStack extends Component {
     }
     render() {
         return(
-            <div className="burgerstack">
+            <div style={{backgroundColor: this.props.ingredient.color}} className="addpadding">
                 {this.props.ingredient.name}
             </div>
         )

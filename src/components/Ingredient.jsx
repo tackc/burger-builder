@@ -12,9 +12,9 @@ class Ingredient extends Component {
 
     render() {
         return (
-            <div>
+            <div className="addpadding">
                 {this.props.ingredient.name}
-                <button onClick={this.handleClick}>+</button>
+                <span><button onClick={this.handleClick}>+</button></span>
             </div>
         )
     }
